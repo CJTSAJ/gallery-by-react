@@ -5,6 +5,23 @@ import React from 'react';
 //import ReactDOM from 'react-dom';
 
 
+/*var imgURL = "../imgages/1.png";
+
+var HelloMessage = React.createClass({
+  render:function(){
+    return (
+      <div>
+        <h1>Hello</h1>
+        <img className="image" src={imgURL}/>
+      </div>
+    )
+  }
+})
+
+ReactDOM.reader(
+  <HelloMessage name="Runoob"/>
+)*/
+
 //获取图片数据
 let imageDatas = require('../data/imagedata.json');
 
@@ -29,6 +46,16 @@ function get30DegRandom(){
   return((Math.random() > 0.5 ? '' : '-') + Math.ceil(Math.random() * 30));
 }
 class ImgFigure extends React.Component{
+
+  //imgFigure的点击函数
+  handleClick(e){
+    this.props.inverse();
+
+    e.stopPropagation();
+    e.preventDefault();
+  }
+
+
   render(){
 
     var styleObj =  {};
@@ -39,18 +66,26 @@ class ImgFigure extends React.Component{
     }
 
     if(this.props.arrange.rotate){
-      (['-moz-','-ms-','-webkit-','']).forEach(function(value){
-        styleObj[value + 'transform'] = 'rotate(' + this.props.arrange.rotate + 'deg)';
+      ['MozTransform','msTransform','WebkitTransform','transform'].forEach(function(value){
+        styleObj[value] = 'rotate(' + this.props.arrange.rotate + 'deg)';
       }.bind(this));
     }
+
+    var  imgFigureClassName = 'img-figure';
+    imgFigureClassName += this.props.arrange.isInverse ? ' is-inverse' : '';
 
     var imgURL=('../images/' + this.props.data.filename);
 
     return(
-      <figure className="img-figure" style={styleObj} ref="figure">
+      <figure className={imgFigureClassName} style={styleObj} ref="figure" onClick={this.handleClick.bind(this)}>
         <img className='img-back' src={imgURL} alt={this.props.data.title}/>
         <figcaption>
           <h2 className="img-title">{this.props.data.title}</h2>
+          <div className="img-back" onClick={this.handleClick.bind(this)}>
+            <p>
+              {this.props.data.description}
+            </p>
+          </div>
         </figcaption>
       </figure>
     )
@@ -67,7 +102,8 @@ class AppComponent extends React.Component {
             left:'0',
             top:'0'
           },
-          rotate:0     //旋转角度
+          rotate:0,     //旋转角度
+          isInverse: false  //图片的正反面
         }*/
       ]
     };
@@ -98,6 +134,19 @@ class AppComponent extends React.Component {
         }
       ]
     };*/
+  }
+
+  //翻转图片
+  inverse(index){
+    return function(){
+      var imgsArrangeArr = this.state.imgsArrangeArr;
+
+      imgsArrangeArr[index].isInverse = !imgsArrangeArr[index].isInverse;
+
+      this.setState({
+        imgsArrangeArr:imgsArrangeArr
+      });
+    }.bind(this);
   }
 
   //组件加载以后为每张图片计算其位置的范围
@@ -226,11 +275,12 @@ class AppComponent extends React.Component {
             left:0,
             top:0
           },
-          rotate:0
-        }
+          rotate:0,
+          isInverse:false
+        };
       }
       imgFigures.push(<ImgFigure data={value} ref={'imgFigure' + index}
-       key={index} arrange={this.state.imgsArrangeArr[index]}/>);
+       key={index} arrange={this.state.imgsArrangeArr[index]} inverse={this.inverse(index).bind(this)}/>);
     }.bind(this));
 
     return (
