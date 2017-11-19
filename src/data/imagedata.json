@@ -1,32 +1,87 @@
 [
   {
+    "filename":"迈克尔乔丹.jpg",
+    "title":"迈克尔乔丹和他的故事",
+    "description":"迈克尔乔丹是NBA历史上最伟大篮球运动员，他的职业生涯是一个传奇，他将NBA、将篮球带向了全世界，他就是篮球的象征。"
+  },
+  {
+    "filename":"电影.jpg",
+    "title":"电影大灌篮",
+    "description":"1996年好莱坞为乔丹拍摄动画电影《宇宙大灌篮》，由乔丹主演，创下了好莱坞体育类电影的票房纪录。"
+  },
+  {
+    "filename":"复出.jpg",
+    "title":"复出奇才",
+    "description":"2002年，为了提升奇才队实力以及慰藉911事件给美国民众带来的恐慌，39岁乔的丹在奇才队复出了，即使是接近四十岁了，在球场上他仍旧无所不能。"
+  },
+  {
+    "filename":"后三连冠.jpg",
+    "title":"后三连冠时期",
+    "description":"自1995年归来后，公牛队重组队伍，公牛三巨头以及老辣的哈帕在球场上让对手闻风丧胆。 "
+  },
+  {
+    "filename":"大虫罗德曼.jpg",
+    "title":"大虫罗德曼",
+    "description":"1995年，公牛签约罗德曼，这位狂放不羁的球员日后成了公牛三巨头之一，助力乔丹完成了第二个三连冠的霸业。"
+  },
+  {
+    "filename":"王者归来.jpg",
+    "title":"I'm back",
+    "description":"第一个三连冠后，乔丹父亲遭人枪杀，心灰意冷之下迈克尔退役了两年去打棒球，95年他披着45号球衣重新回到了公牛队的赛场，开启了第二个三连冠之旅。"
+  },
+  {
+    "filename":"退役后.jpg",
+    "title":"退役后的生活",
+    "description":"迈克尔退役后，也不甘于平静，先是入股奇才队成为总经理，后来又买了山猫队做起了老板。山猫也就是现在的黄蜂队"
+  },
+  {
+    "filename":"最好的队友.jpg",
+    "title":"最好的队友",
+    "description":"乔丹与皮蓬是历史上最强的搭档之一，乔丹帮助皮蓬成长为巨星，皮蓬辅佐乔丹拿了六座冠军。"
+  },
+  {
     "filename":"代言耐克.jpg",
-    "title":"university",
-    "description":"show time"
+    "title":"代言耐克",
+    "description":"1984年，耐克签约了新秀乔丹，从此耐克开启了它的商业帝国之路。图为九十年代，耐克公司为乔丹新鞋拍摄的广告。"
   },
   {
     "filename":"国家队.jpg",
-    "title":"university",
-    "description":"show time"
+    "title":"入选国家队",
+    "description":"1992年，代表美国国家队参加奥运会。与魔术师、拉里伯德等立历史级巨星组成了史上最强的“梦一队”"
   },
   {
     "filename":"六个总冠军.jpg",
-    "title":"university",
-    "description":"show time"
+    "title":"六个总冠军",
+    "description":"乔丹职业生涯拿下了六次总冠军，冠军戒指一只手都带不下"
   },
   {
     "filename":"乔丹与魔术师.png",
-    "title":"university",
-    "description":"show time"
+    "title":"乔丹和约翰逊",
+    "description":"91年总决赛，乔丹从“魔术师”约翰逊手中拿到了生涯第一枚总冠军戒指，这是一次历史性的交接"
   },
   {
     "filename":"最后一投.jpg",
-    "title":"university",
-    "description":"show time"
+    "title":"最后一投",
+    "description":"98年总决赛与爵士双煞厮杀，在最危急的关头，乔丹完成了他生涯最完美的一次绝杀，拿下第六个总冠军并退役"
   },
   {
     "filename":"AirJordan.png",
     "title":"AirJordan",
-    "description":"show time"
+    "description":"AirJordan是耐克旗下为乔丹打造的个人品牌，也是篮球运动鞋最有地位的品牌，其影响力遍布全球，是很多时尚达人的宠儿"
+  },
+  {
+    "filename":"扣篮王.jpg",
+    "title":"扣篮王",
+    "description":"1988年，乔丹在扣篮大赛上与著名扣将维尔金斯对上，难分高下，不过最终乔丹以一记著名的罚球线扣篮夺走扣篮王。"
+  },
+  {
+    "filename":"乔丹和科比.jpg",
+    "title":"乔丹和科比",
+    "description":"NBA两个划时代性的人物，在1998年的全明星赛上，乔丹与科比对位，并拿走了当年全明星MVP。"
+  },
+  {
+    "filename":"流感之战.jpg",
+    "title":"流感之战",
+    "description":"1997年的总决赛上，球迷在乔丹的食物中投毒，当晚乔丹患流感，重度发烧，但仍然带病砍下38分取得胜利，赛后皮蓬搀扶着虚脱的乔丹下场。"
   }
 ]
