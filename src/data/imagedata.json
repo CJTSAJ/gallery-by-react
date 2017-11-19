@@ -1,47 +1,32 @@
 [
   {
-    "filename":"大学时期.jpg",
+    "filename":"代言耐克.jpg",
     "title":"university",
-    "description":"show time",
-  },
-  {
-    "filename":"第一个三连冠.jpg",
-    "title":"university",
-    "description":"show time",
-  },
-  {
-    "filename":"电影大灌篮.jpg",
-    "title":"university",
-    "description":"show time",
+    "description":"show time"
   },
   {
     "filename":"国家队.jpg",
     "title":"university",
-    "description":"show time",
+    "description":"show time"
   },
   {
-    "filename":"扣篮王.jpg",
+    "filename":"六个总冠军.jpg",
     "title":"university",
-    "description":"show time",
+    "description":"show time"
   },
   {
-    "filename":"奇才时期.jpg",
+    "filename":"乔丹与魔术师.png",
     "title":"university",
-    "description":"show time",
+    "description":"show time"
   },
   {
-    "filename":"乔丹简介.jpg",
+    "filename":"最后一投.jpg",
     "title":"university",
-    "description":"show time",
+    "description":"show time"
   },
   {
-    "filename":"新秀赛季.jpg",
-    "title":"university",
-    "description":"show time",
-  },
-  {
-    "filename":"yeoman.png",
-    "title":"university",
-    "description":"show time",
+    "filename":"AirJordan.png",
+    "title":"AirJordan",
+    "description":"show time"
   }
 ]
