@@ -19,8 +19,12 @@
 ### 网页效果
 #### 图片位置变换动画
 网页主要以“画廊”的概念搭建。网页上有17张图片，点击其中任意一张图片，该图片将变换到网页中间的舞台，其他所有图片也会随机变换位置。
+
+![](https://github.com/CJTSAJ/gallery-by-react1/blob/master/%E6%BC%94%E7%A4%BA1.png?raw=true)
 #### 图片翻转动画
 每张舞台中间的图片，再点击后即可翻面，图片背面是关于该图的文字介绍。
+
+![](https://github.com/CJTSAJ/gallery-by-react1/blob/master/%E6%BC%94%E7%A4%BA2.png?raw=true)
 #### 鼠标变化
 为了提升体验，每次将鼠标移动到图片上时，鼠标将自动变为“手”的形状。
 
