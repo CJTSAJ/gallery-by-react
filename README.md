@@ -2,7 +2,7 @@
 任老师作业(基于react制作的网页)
 
 ### 简介
-这是一份上海交大软件工程的作业。是一个简单的动态图片网页，网页的内容主要是介绍篮球运动员迈克尔乔丹的事迹。
+这是一份上海交大软件工程的作业。该网页根据慕课网上一个教程模仿制作的（[教程地址](http://www.imooc.com/learn/507)），是一个简单的动态图片网页，网页的内容主要是介绍篮球运动员迈克尔乔丹的事迹。
 
 ### 网页的实现
 网页主要基于 ES6+react+webpack 实现，在windows下安装nodejs环境，用npm安装yeoman以及react-webpack-generator，最终用yeoman生成了基本框架。
@@ -26,4 +26,13 @@
 
 网页演示地址：
 [https://cjtsaj.github.io/gallery-by-react/](https://cjtsaj.github.io/gallery-by-react/)
+
+### 项目的拉取以及环境配置
+将项目克隆到本地目录，然后运行
+>npm install
+
+将所有依赖项以及配置自动安装到本地，然后执行
+>npm run serve
+
+即可运行项目。
 
